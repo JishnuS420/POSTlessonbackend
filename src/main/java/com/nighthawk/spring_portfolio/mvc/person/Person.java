@@ -120,9 +120,9 @@ public class Person {
         }
 
         Person p2 = new Person();
-        p2.setName("Alexander Graham Bell");
-        p2.setEmail("lexb@gmail.com");
-        p2.setPassword("123LexB!");
+        p2.setName("Tester Testing");
+        p2.setEmail("test@gmail.com");
+        p2.setPassword("password");
         try {
             Date d = new SimpleDateFormat("MM-dd-yyyy").parse("01-01-1845");
             p2.setDob(d);

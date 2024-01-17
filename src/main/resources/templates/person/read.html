@@ -44,7 +44,7 @@
                         <td>
                             <!--- <a th:href="@{/mvc/notes/{id}(id = ${person.id})}">Notes</a> -->
                             <a th:href="@{/mvc/person/update/{id}(id = ${person.id})}">Update</a>
-                            <a th:href="@{/mvc/person/delete/{id}(id = ${person.id})}">Delete</a>
+                            <a th:href="@{/mvc/person/delete/{id}(id=${person.id})}" onclick="return confirm('Are you sure?')">Delete</a>
                         </td>
                     </tr>
                     </tbody>
