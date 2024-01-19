@@ -13,6 +13,7 @@ import java.util.List;
 // or similar: https://asbnotebook.com/2020/04/11/spring-boot-thymeleaf-form-validation-example/
 @Controller
 @RequestMapping("/mvc/person")
+@CrossOrigin(origins = {"http://localhost:4200","https://jishnus420.github.io"})
 public class PersonViewController {
     // Autowired enables Control to connect HTML and POJO Object to database easily for CRUD
     @Autowired
